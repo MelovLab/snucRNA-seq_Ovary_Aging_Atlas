@@ -1,4 +1,4 @@
-# snucRNA-seq_Ovary_Aging_Atlas
+# snucRNA-seq Postmenopausal Human Ovary Aging Atlas
 
 Code associated with a single-nucleus RNA-seq atlas of the aging postmenopausal human ovary.
 
