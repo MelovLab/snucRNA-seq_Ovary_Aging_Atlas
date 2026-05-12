@@ -1,0 +1,35 @@
+﻿[gene-expression],,,
+ref,/path/to/refdata-gex-GRCh38-2024-A,,
+probe-set,/path/to/HumProbeset_v1.0.1.csv,
+create-bam,true
+,,,
+[libraries],,,
+fastq_id,fastqs,lanes,feature_types
+Aviti2_Run_028_Human_ovary_single_nuclei_plex_4,/path/to/raw_sequencing_data/Plex_4/,any,Gene Expression
+Aviti2_Run_029_Human_ovary_single_nuclei_plex_4,/path/to/raw_sequencing_data/Plex_4/,any,Gene Expression
+Aviti3_Run_007_Human_ovary_single_nuclei_plex_4,/path/to/raw_sequencing_data/Plex_4/,any,Gene Expression
+Aviti3_Run_008_Human_ovary_single_nuclei_plex_4,/path/to/raw_sequencing_data/Plex_4/,any,Gene Expression
+Aviti4_Run_011_Human_ovary_single_nuclei_plex_4,/path/to/raw_sequencing_data/Plex_4/,any,Gene Expression
+Aviti4_Run_012_Human_ovary_single_nuclei_plex_4,/path/to/raw_sequencing_data/Plex_4/,any,Gene Expression
+Aviti5_Run_010_Human_ovary_single_nuclei_plex_4,/path/to/raw_sequencing_data/Plex_4/,any,Gene Expression
+Aviti5_Run_011_Human_ovary_single_nuclei_plex_4,/path/to/raw_sequencing_data/Plex_4/,any,Gene Expression
+
+,,,
+[samples],,,
+sample_id,probe_barcode_ids,description,
+SN_0076,BC001,Plex_4,
+SN_0085,BC002,Plex_4,
+SN_0086_1,BC003,Plex_4,
+SN_0168,BC004,Plex_4,
+SN_0163,BC005,Plex_4,
+SN_0164,BC006,Plex_4,
+SN_0169,BC007,Plex_4,
+SN_0170,BC008,Plex_4,
+SN_0238,BC009,Plex_4,
+SN_0244,BC010,Plex_4,
+SN_0245,BC011,Plex_4,
+SN_0249_1,BC012,Plex_4,
+SN_0249_2,BC013,Plex_4,
+SN_0253,BC014,Plex_4,
+SN_0263,BC015,Plex_4,
+SN_0086_2,BC016,Plex_4,
