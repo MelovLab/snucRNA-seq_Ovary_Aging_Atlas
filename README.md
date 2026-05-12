@@ -19,6 +19,9 @@ The scripts are numbered to reflect the approximate order of the analysis workfl
 - **1a_OvaryAtlas_cellranger.sh**  
   Runs Cell Ranger multi for multiplexed 10x Flex libraries and collects filtered per-sample count matrices.
 
+- **1a_cellranger_multi_configs/**  
+  Cell Ranger multi configuration CSV files used by `1a_OvaryAtlas_cellranger.sh` for each multiplexed plex.
+
 - **1b_cellbender_jupyter.ipynb**  
   Runs CellBender-based ambient RNA correction and prepares corrected sample-level matrices for downstream preprocessing.
 
